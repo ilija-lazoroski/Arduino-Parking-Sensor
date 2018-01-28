@@ -1,9 +1,3 @@
-#define NOTE_E4  329
-#define NOTE_F4  349
-#define NOTE_G4  392
-
-
-
 bool change=false; //variable to check if something entered the red zone
 
 double duration; //duration is used to determine the distance sensed from the rangefinder
