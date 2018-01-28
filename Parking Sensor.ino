@@ -45,7 +45,7 @@ void getDistance(){
   pinMode(A5, INPUT); //set rangefinder pin back to input to be ready to catch the bounced sound wave 
   
   duration = pulseIn(A5, HIGH); //pulseIn() function reads the time it took for wave to bounce back
-  distance = (duration/2)/29.1; //converts the found time to distance (using physics and math)
+  distance = (duration/2)/29.1; //converts the found time to distance cm (using physics and math)
   delay(10); //this slows down the rate at which we take distance measurements
 
   Serial.println(distance); //debugging
