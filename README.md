@@ -12,3 +12,5 @@ if the distance is greater then 50cm it will be green.
 The buzzer is changing frequencies regarding the distance. That was done with map function.
 If the distance is between 0 and 200, then mapping will be from 600 to 300 so if a distance 
 is less then 25cm the sound of the buzzer will be stronger.
+
+Simple change.
